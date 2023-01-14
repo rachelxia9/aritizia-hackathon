@@ -185,6 +185,14 @@ height: 120px;
   margin: 1cm;
 }
 
+.about-li {
+ position: absolute;
+  width: 760px;
+  height: 200px;
+  left: 350px;
+  top: 960px;
+}
+
 .cute-link{
   text-decoration: none;
   color: #9e9e9d;
@@ -196,19 +204,27 @@ height: 120px;
 
 .color-picker {
 position: absolute;
-width: 1146px;
-height: 730px;
-left: 114px;
+width: 1163px;
+height: 729px;
+left: 184px;
 top: 147px;
 }
 
 .color-picker2{
 
 position: absolute;
-width: 1156px;
-height: 804px;
-left: 131px;
-top: 84px;
+width: 794px;
+height: 809px;
+left: 323px;
+top: 99px;
 
+
+}
+
+.color-picker3{
+ width: 794px;
+height: 809px;
+left: 323px;
+top: 99px;
 
 }
