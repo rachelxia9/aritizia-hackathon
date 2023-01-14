@@ -203,11 +203,9 @@ height: 120px;
 }
 
 .color-picker {
-position: absolute;
-width: 1163px;
-height: 729px;
-left: 184px;
-top: 147px;
+position: sticky;
+margin: auto;
+width: 95%;
 }
 
 .color-picker2{
@@ -230,12 +228,12 @@ top: 99px;
 }
 
 .product {
-	margin-bottom: 50px;
-  margin-left: 50px;
+	margin-bottom: 60px;
+  margin-left: 30px;
+  break-inside: avoid;
 }
 .product-inner {
 	box-shadow: 0 0 10px rgba(0,0,0,.2);
-	padding: 10px;
 }
 .product img {
 	margin-left: 30px;
@@ -267,3 +265,4 @@ top: 99px;
   column-count: 3;
   width: 35%;
 }
+

@@ -1,6 +1,6 @@
 data = [
 	{
-		"size": "S",
+    "size": "S",
 		"clothing": "Skirt",
 		"accessibility": "None",
 		"image": "https://aritzia.scene7.com/is/image/Aritzia/large/s23_02_a07_98686_18891_off_a.jpg"
