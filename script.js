@@ -47,6 +47,42 @@ data = [
 		"accessibility": "None",
 		"image": "https://aritzia.scene7.com/is/image/Aritzia/f22_07_a04_100452_10250_off_a?wid=900"
 	},
+  {
+		"size": "M",
+		"clothing": "Dress",
+		"accessibility": "None",
+		"image": "https://aritzia.scene7.com/is/image/Aritzia/large/f22_01_a08_101268_27359_off_a.jpg"
+	},
+  {
+		"size": "M",
+		"clothing": "Dress",
+		"accessibility": "Wheelchair-friendly",
+		"image": "https://aritzia.scene7.com/is/image/Aritzia/f22_07_a08_94346_27390_off_a?wid=900"
+	},
+  {
+		"size": "L",
+		"clothing": "Blazer",
+		"accessibility": "Wheelchair-friendly",
+		"image": "https://aritzia.scene7.com/is/image/Aritzia/f22_01_a04_104667_1274_off_a?wid=900"
+	},
+   {
+		"size": "S",
+		"clothing": "Blazer",
+		"accessibility": "None",
+		"image": "https://aritzia.scene7.com/is/image/Aritzia/s23_01_a04_61114_27638_off_a?wid=900"
+	},
+   {
+		"size": "S",
+		"clothing": "Skirt",
+		"accessibility": "Wheelchair-friendly",
+		"image": "https://aritzia.scene7.com/is/image/Aritzia/large/s23_04_a07_106202_1564_off_a.jpg"
+	},
+  {
+		"size": "XS",
+		"clothing": "Knitwear",
+		"accessibility": "None",
+		"image": "https://aritzia.scene7.com/is/image/Aritzia/f22_07_a03_64631_27390_off_a?wid=900"
+	},
 	{
 		"size": "XS",
 		"clothing": "Shorts",
