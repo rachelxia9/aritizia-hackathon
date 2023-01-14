@@ -32,7 +32,7 @@ top: 33px;
 font-family: 'Syne';
 font-style: normal;
 font-weight: 400;
-font-size: 50px;
+font-size: 40px;
 line-height: 60px;
 text-align: center;
 
@@ -74,7 +74,11 @@ li a {
 }
 
 li a:hover {
-  background-color: #ffebec;
+  text-decoration: underline;;
+}
+
+.nav {
+  font-size: 20px;
 }
 
 .container {
@@ -89,6 +93,7 @@ li a:hover {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+
 }
 
 .middle {
@@ -112,19 +117,7 @@ li a:hover {
 
 .text {
   background-color: black;
-  color: black;
+  color: white;
   font-size: 16px;
   padding: 16px 32px;
-}
-
-.nav{
-  top: 33 px;
-}
-
-.header{
-    position: absolute;
-width: 1228px;
-height: 920px;
-left: 91px;
-top: 107px;
 }
