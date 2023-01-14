@@ -155,7 +155,7 @@ height: 120px;
   width: 65%;
 }
 
-.row:after {
+.row-something:after {
   content: "";
   display: table;
   clear: both;
@@ -186,7 +186,7 @@ height: 120px;
 }
 
 .about-li {
- position: absolute;
+ position: sticky;
   width: 760px;
   height: 200px;
   left: 350px;
@@ -227,4 +227,43 @@ height: 809px;
 left: 323px;
 top: 99px;
 
+}
+
+.product {
+	margin-bottom: 50px;
+  margin-left: 50px;
+}
+.product-inner {
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	padding: 10px;
+}
+.product img {
+	margin-left: 30px;
+  height: 400 px;
+  width: 300px;
+}
+
+.row {
+  column-count: 3;
+}
+
+#search{
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  width: 17%
+}
+
+#float-left{
+  float: left;
+}
+
+#float-right{
+  float: right;
+}
+
+.three-filters{
+  margin: auto;
+  column-count: 3;
+  width: 35%;
 }

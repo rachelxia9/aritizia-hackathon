@@ -23,6 +23,48 @@
   </ul>
 </div>
 
+  <div class="filter-system">
+	<div id="search">
+		<form id="search-form" action="" method="POST" enctype="multipart/form-data">
+			<div class="form-group col-xs-9" id= "float-left">
+				<input class="form-control" type="text" placeholder="Search" />
+			</div>
+			<div class="form-group col-xs-3" id="float-right">
+				<button type="submit" class="btn btn-block btn-primary">Search</button>
+			</div>
+		</form>
+	</div>
+    <br> &nbsp; <br>
+	<div class="three-filters" id="filter">
+		<form>
+			<div class="form-group col-sm-3 col-xs-6">
+				<select data-filter="size" class="filter-size filter form-control">
+					<option value="">Select Size</option>
+					<option value="">Show All</option>
+				</select>
+			</div>
+			<div class="form-group col-sm-3 col-xs-6">
+				<select data-filter="clothing" class="filter-clothing filter form-control">
+					<option value="">Select Clothing</option>
+					<option value="">Show All</option>
+				</select>
+			</div>
+			<div class="form-group col-sm-3 col-xs-6">
+				<select data-filter="accessibility" class="filter-accessibility filter form-control">
+					<option value="">Select Accessibility</option>
+					<option value="">Show All</option>
+				</select>
+			</div>
+		</form>
+	</div>
+    <br>&nbsp;<br>
+	<div class="row" id="products">
+		
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="./script.js"></script>
 
 </body>
 
