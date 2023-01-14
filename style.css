@@ -184,3 +184,31 @@ height: 120px;
   padding: 30 px;
   margin: 1cm;
 }
+
+.cute-link{
+  text-decoration: none;
+  color: #9e9e9d;
+}
+
+.cute-link:hover {
+  text-decoration: underline;;
+}
+
+.color-picker {
+position: absolute;
+width: 1146px;
+height: 730px;
+left: 114px;
+top: 147px;
+}
+
+.color-picker2{
+
+position: absolute;
+width: 1156px;
+height: 804px;
+left: 131px;
+top: 84px;
+
+
+}
