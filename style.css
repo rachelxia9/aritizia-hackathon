@@ -7,6 +7,7 @@ html, body {
    font-family: Syne;
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
     }
 
     body {
@@ -23,17 +24,19 @@ top: 41px;
 }
 
 .acc {
-  position: absolute;
+position: absolute;
 width: 541px;
 height: 66px;
-left: 164px;
+left: 135px;
 top: 33px;
 
 font-family: 'Syne';
 font-style: normal;
 font-weight: 400;
-font-size: 40px;
-line-height: 60px;
+font-size: 55px;
+line-height: 66px;
+/* identical to box height */
+
 text-align: center;
 
 color: #000000;
@@ -45,14 +48,14 @@ color: #000000;
   text-align: center;
   height: 100px;
   width: 100%;
-  position: fixed;
+  position: static;
   z-index: 1;
   top: 0;
   left: 0;
 
 }
 
-ul {
+.links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,12 +63,12 @@ ul {
   background-color: #ffffff;
 }
 
-li {
+.link {
   float: right;
    border-right: 1px solid white;
 }
 
-li a {
+.link a {
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -73,7 +76,7 @@ li a {
   color: black
 }
 
-li a:hover {
+.link a:hover {
   text-decoration: underline;;
 }
 
@@ -84,6 +87,7 @@ li a:hover {
 .container {
   position: relative;
   width: 100%;
+  margin-bottom: 0.5cm;
 }
 
 .image {
@@ -93,6 +97,8 @@ li a:hover {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-style: solid;
+  border-color: 50px black;
 
 }
 
@@ -118,6 +124,63 @@ li a:hover {
 .text {
   background-color: black;
   color: white;
-  font-size: 16px;
+  font-size: 23px;
   padding: 16px 32px;
+  width: 352px;
+height: 120px;
+  border-radius: 10px;
+  line-height: 50px;
+}
+
+.wheelchair:hover{
+  opacity: 0.3;
+}
+
+.here-header{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 1cm;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 30%;
+  margin-left: 0.7cm;
+}
+
+.right {
+  width: 65%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.intro{
+  font-size:20px;
+}
+
+.left2 {
+  width: 70%;
+}
+
+.right2 {
+  width: 30%;
+}
+
+.bottom-text{
+  padding: 20px;
+  color: white;
+}
+
+.about-text{
+  text-align: center;
+  font-size: 20 px;
+  padding: 30 px;
+  margin: 1cm;
 }
